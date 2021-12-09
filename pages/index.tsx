@@ -4,6 +4,8 @@ import { TwitterCard } from "../components/TwitterCard";
 const Home: NextPage = () => {
   return (
     <TwitterCard
+      type="promotion"
+      // retweetedUser="太郎"
       user={{
         name: "hoge",
         accountName: "foobar",
